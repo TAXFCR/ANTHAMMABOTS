@@ -12,7 +12,7 @@ from AnonX.utils.decorators.language import language
 from AnonX.utils.inline.play import close_keyboard
 
 ### Commands
-PING_COMMAND = get_command("AGORA_COMMAND")
+PING_COMMAND = get_command("PING_COMMAND")
 
 
 @app.on_message(
